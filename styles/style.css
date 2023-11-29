@@ -221,3 +221,21 @@
   display: flex;
   padding: 0px 50px 182px 50px;
 }
+
+.about__column__logo {
+  margin-top: 1px;
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  margin: 0px 95px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  margin: 63px 46px 63px 46px;
+}
