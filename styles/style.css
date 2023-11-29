@@ -189,6 +189,7 @@
   line-height: 24px;
   text-decoration: none;
   word-wrap: break-word;
+  text-align: left;
 }
 
 .card_type_book {
