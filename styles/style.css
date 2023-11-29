@@ -6,3 +6,22 @@
   align-items: center;
   padding: 92px 53px 92px 51px;
 }
+
+.header__links-list-item {
+  display: flex;
+  gap: 32px;
+  text-underline-offset: 5px;
+  list-style-type: circle;
+}
+
+.header__link-list-item_no-dot {
+  list-style-type: none;
+}
+
+.header__link {
+  font-size: 18px;
+}
+
+.header__link_undelining {
+  text-decoration: none;
+}
