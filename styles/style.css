@@ -1,7 +1,8 @@
-.content-section {
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 1440px;
-  min-height: 100px;
-  margin: auto;
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 92px 53px 92px 51px;
 }
