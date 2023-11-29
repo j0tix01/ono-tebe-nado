@@ -26,7 +26,26 @@
   text-decoration: none;
 }
 
+.header__logo {
+  margin-right: 147px;
+}
+
 .header__logo-image {
   width: 148px;
   height: 105px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
+}
+
+.address__nowrap {
+  white-space: nowrap;
 }
