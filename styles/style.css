@@ -55,8 +55,8 @@
 .cover {
   position: relative;
   display: flex;
-  height: 757px;
   width: 1440px;
+  height: 757px;
   color: white;
   background-image: url(/images/cover.jpg);
   background-position: center;
@@ -287,4 +287,12 @@
 
 .footer__menu-link_active {
   text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 50px;
+  width: 240px;
+  height: 48px;
+  list-style: none;
 }
