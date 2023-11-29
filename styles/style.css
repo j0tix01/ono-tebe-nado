@@ -49,3 +49,16 @@
 .address__nowrap {
   white-space: nowrap;
 }
+
+/* SECTION COVER */
+
+.cover {
+  position: relative;
+  display: flex;
+  height: 757px;
+  color: white;
+  background-image: url(/images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
