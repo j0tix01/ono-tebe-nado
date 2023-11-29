@@ -25,3 +25,8 @@
 .header__link_undelining {
   text-decoration: none;
 }
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
