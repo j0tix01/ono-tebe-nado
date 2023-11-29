@@ -214,3 +214,10 @@
   text-underline-offset: 5px;
   word-wrap: break-word;
 }
+
+/* SECTION ABOUT */
+
+.about {
+  display: flex;
+  padding: 0px 50px 182px 50px;
+}
