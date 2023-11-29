@@ -132,3 +132,10 @@
 .lots {
   padding: 180px 50px 181px 50px;
 }
+
+.lots__heading {
+  margin-left: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
