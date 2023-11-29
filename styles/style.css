@@ -239,3 +239,23 @@
   height: 114px;
   margin: 63px 46px 63px 46px;
 }
+
+.about__column__title-text p:first-of-type {
+  padding-bottom: 27px;
+}
+
+.about__title {
+  margin: 100px 0px 100px 25px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+}
+
+.about__text {
+  margin-left: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.5px;
+  word-wrap: break-word;
+}
