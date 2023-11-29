@@ -98,3 +98,32 @@
   text-align: right;
 }
 
+.cover__description {
+  position: absolute;
+  right: 51px;
+  bottom: 51px;
+  display: flex;
+  align-items: center;
+  gap: 82px;
+}
+
+.cover__description-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 17.5px;
+  word-wrap: break-word;
+}
+
+.bet-button {
+  border: solid #fff 1px;
+  padding: 12px 32px;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+}
+
