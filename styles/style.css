@@ -267,3 +267,24 @@
   justify-content: space-between;
   padding: 0px 50px 90px 50px;
 }
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__menu-list-item {
+  list-style-type: none;
+}
+
+.footer__menu-link {
+  font-weight: 400;
+  font-size: 18px;
+  text-underline-offset: 4px;
+  word-wrap: break-word;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
