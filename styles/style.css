@@ -206,3 +206,11 @@
   background-position: center;
   background-size: cover;
 }
+
+.lots__look-more-link {
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  text-underline-offset: 5px;
+  word-wrap: break-word;
+}
