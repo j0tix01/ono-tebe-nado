@@ -172,15 +172,15 @@
 }
 
 .card__title {
-  margin: 50px 30px 0px 40px;
+  margin: 50px 40px 0px 40px;
   font-weight: 700;
   font-size: 22px;
   line-height: 26.4px;
+  text-align: left;
   text-decoration: underline;
   text-underline-offset: 3px;
   text-transform: uppercase;
   word-wrap: break-word;
-  text-align: left;
 }
 
 .card__text {
