@@ -220,13 +220,13 @@
 }
 
 .about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .about__logo-image {
@@ -235,7 +235,7 @@
 }
 
 .about__column__title-text .about__text:not(:last-child) {
-  padding-bottom: 27px
+  padding-bottom: 27px;
 }
 
 .about__title {
@@ -285,8 +285,7 @@
 
 .footer__social-list {
   display: flex;
-  gap: 50px;
+  gap: 12px 50px;
   width: 240px;
-  height: 48px;
   list-style: none;
 }
