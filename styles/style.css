@@ -1,7 +1,8 @@
 /* HEADER */
 
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   justify-content: space-between;
   align-items: center;
   padding: 92px 49px 92px 51px;
@@ -19,13 +20,8 @@
   list-style-type: none;
 }
 
-.header__link_undelining {
+.header__link_no-undelining {
   text-decoration: none;
-}
-
-.header__logo {
-  margin-right: 355px;
-  margin-left: 209px;
 }
 
 .header__logo-image {
@@ -34,6 +30,7 @@
 }
 
 .address {
+  justify-self: end;
   max-width: 240px;
   font-weight: 400;
   font-size: 18px;
@@ -102,9 +99,10 @@
 .cover__description {
   z-index: 1;
   display: flex;
+  justify-content: end;
   align-items: center;
   gap: 78px;
-  margin: 135px 50px 50px 422px;
+  margin: 135px 50px 50px 0px;
 }
 
 .cover__description-text {
